@@ -1,0 +1,130 @@
+{
+  "ok": 1,
+  "items": [
+    {
+      "id": 3,
+      "name": "Chambolle-Musigny 1er Cru Les Hauts Doix",
+      "millesime": 2015,
+      "description_fr": null,
+      "description_en": null,
+      "appellation": "Chambolle-Musigny 1er Cru",
+      "classement": null,
+      "cepage": "Pinot Noir",
+      "region": "Bourgogne Côte de Nuits",
+      "degres": 0,
+      "is_bio": 0,
+      "color_id": 2,
+      "prices": [
+        {
+          "id": 3,
+          "wine_id": 3,
+          "quantity_id": 2,
+          "price": "449.83",
+          "quantity": {
+            "id": 2,
+            "name": "Bouteille",
+            "cl": "75.0"
+          }
+        },
+        {
+          "id": 4,
+          "wine_id": 3,
+          "quantity_id": 1,
+          "price": "99.99",
+          "quantity": {
+            "id": 1,
+            "name": "Verre",
+            "cl": "20.0"
+          }
+        }
+      ],
+      "color": {
+        "id": 2,
+        "name": "Rouge"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nuits-Saint-Georges Au Chouillet 'Vieilles Vignes'",
+      "millesime": 2016,
+      "description_fr": null,
+      "description_en": null,
+      "appellation": "Nuits-Saint-Georges",
+      "classement": null,
+      "cepage": "Pinot Noir",
+      "region": "Bourgogne Côte de Nuits",
+      "degres": 14,
+      "is_bio": 0,
+      "color_id": 2,
+      "prices": [
+        {
+          "id": 10,
+          "wine_id": 5,
+          "quantity_id": 2,
+          "price": "199.99",
+          "quantity": {
+            "id": 2,
+            "name": "Bouteille",
+            "cl": "75.0"
+          }
+        }
+      ],
+      "color": {
+        "id": 2,
+        "name": "Rouge"
+      }
+    },
+    {
+      "id": 302,
+      "name": "Corton-Charlemagne Le Charlemagne",
+      "millesime": 2015,
+      "description_fr": null,
+      "description_en": null,
+      "appellation": "Corton-Charlemagne Grand Cru",
+      "classement": null,
+      "cepage": "Chardonnay",
+      "region": "Bourgogne Côte de Beaune",
+      "degres": 14,
+      "is_bio": 0,
+      "color_id": 1,
+      "prices": [
+        {
+          "id": 1,
+          "wine_id": 302,
+          "quantity_id": 1,
+          "price": "9.99",
+          "quantity": {
+            "id": 1,
+            "name": "Verre",
+            "cl": "20.0"
+          }
+        },
+        {
+          "id": 2,
+          "wine_id": 302,
+          "quantity_id": 2,
+          "price": "29.99",
+          "quantity": {
+            "id": 2,
+            "name": "Bouteille",
+            "cl": "75.0"
+          }
+        }
+      ],
+      "color": {
+        "id": 1,
+        "name": "Blanc"
+      }
+    }
+  ],
+  "colors" : [ 
+    {
+      "id":1,
+      "name":"Blanc"
+    },
+    {
+      "id":2,
+      "name":"Rouge"
+    }   
+  ]
+}

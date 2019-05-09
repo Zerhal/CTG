@@ -1,0 +1,273 @@
+.site-container {
+    display: block;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.local-fr {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.right-header > *:not(:first-child) {
+    border-left: solid gray 1px;
+}
+
+.local-en {
+    padding-left: 2%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.site-pusher{
+    margin: 0;
+    height: 100vh;
+}
+.fal{
+    font-size: 250%;
+    text-align: center;
+    padding-right: 2%;
+    color: black;
+}
+
+.fas{
+    font-size: 250%;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 2%;
+    padding-left: 30%;
+    color: black;
+}
+
+.left-content {
+    width: 50%;
+    min-height: 80vh;
+}
+
+.wine-detail {
+    display: flex;
+    margin: 0;
+    height: 90%;
+}
+
+img {
+    border-style: none;
+    height: 40px;
+}
+
+.img-wine{
+    width: 100%;
+    height: 100%;
+}
+
+.right-content {
+    height: 90%;
+    width: 50%;
+}
+
+.local-en{
+    padding-left:2%;
+    width: 5%;
+    height: 5%;
+    position: relative;
+    float: right;
+}
+
+.right-header {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 2%;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 75%;
+    height: 75%;
+    position: relative;
+    float:right;
+    margin-right: 10%;
+}
+
+.search {
+    position: relative;
+    float: right;
+    margin-left: auto;
+    padding-right: 2%;
+}
+
+
+.right-header > *:not(:first-child):not(:last-child) {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.right-header > *:not(:first-child) {
+    border-left: solid gray 1px;
+}
+
+#header__icon{
+    display: inline-block;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top : 0px;
+    background: white;    
+    border-bottom: #ffce37 solid 3px;
+}
+
+.container{
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+}
+.menu-filtre{
+    position: relative;
+    display: block;
+}
+
+.left-containter {
+    height: 91vh;
+    width: 30%;
+    background: white;
+    overflow: auto;
+}
+
+.filtre{
+    display: block;
+}
+
+.right-filter{
+    position: relative;
+    float: right;
+    width: 10%;
+}
+
+.left-filter{
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    border-bottom: grey solid 1px;
+}
+
+.main-right-filter{
+    position: relative;
+    float: right;
+}
+
+.fa-angle-right{
+    position: relative;
+    float: right;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.main-filtre{
+    background-color: #ffce37;
+    color: white;
+}
+.main-left-filter{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 90%
+}
+
+#slider-range{
+    width:80%;
+    align-items: center;
+}
+
+.domaine-cb{
+    text-align: left;
+    padding-left:2%; 
+}
+
+.active{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    width: 95%;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #ffce37;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffce37;
+    cursor: pointer;
+}
+.site-content{
+    background: whitesmoke;
+}
+.right-containter{
+    position: relative;
+    float: right;
+    width: 65%;
+}
+
+.vin{
+    display: block;
+    padding-bottom: 1%;
+}
+
+.nom-vin{
+    display: inline-flex;
+    width: 75%;
+    text-align: left;
+}
+
+.annee-vin{
+    display: inline-flex;
+    width: 10%;
+    text-align: right;
+    color: grey;
+    border-right: gray solid 1px;
+}
+
+.prix-verre{
+    display: inline-flex;
+    width: 10%;
+    text-align: right;
+    margin-left:3% ;
+}
+
+body{
+    background: whitesmoke;    
+    min-height: 100vh;
+}
+
