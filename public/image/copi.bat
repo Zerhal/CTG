@@ -1,0 +1,1 @@
+for /l %%v in (0, 1,150) do copy vin_.jpg vin_%%v.jpg
